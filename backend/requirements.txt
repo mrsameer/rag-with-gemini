@@ -1,5 +1,0 @@
-fastapi
-uvicorn
-google-cloud-aiplatform
-python-multipart
-python-dotenv

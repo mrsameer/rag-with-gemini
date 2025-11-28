@@ -1,15 +1,32 @@
+# Environment and secrets
+.env
+*.key
+*.json
+
 # Python
 __pycache__/
 *.py[cod]
 *$py.class
+*.so
+.Python
 venv/
-.env
+.venv/
+env/
+ENV/
 
-# Node.js
-node_modules/
-dist/
+# Streamlit
+.streamlit/
+
+# Logs
+*.log
+
+# OS
 .DS_Store
+Thumbs.db
 
-# Project specific
-gemini-api-key.json
-.gemini/
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
